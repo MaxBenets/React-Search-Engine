@@ -1,0 +1,61 @@
+.cards{
+    padding-top: 50px;
+}
+
+.card{
+    width: 30%;
+    margin: 10px;
+    transition: 0.3s;
+    background: rgb(251, 251, 251);
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+.h2{
+    font-size: 30px;
+    font-family: "Montserrat";
+}
+.h3{
+    font-family: "Inter";
+}
+.p{
+    font-family: "Roboto";
+    font-weight: 100;
+    color: #343434;
+    margin-top: 20px;
+}
+
+.img{
+    width: 100%;   
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.save{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.cardInfo{
+    display: flex;
+}
+.basket{
+    opacity: 0.7;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0; left: 0;
+}
+
+@media (max-width: 850px) {
+    .flex{
+        display: block
+    }
+    .card{
+        width: 100%;
+        margin-top: 50px;
+    }
+}

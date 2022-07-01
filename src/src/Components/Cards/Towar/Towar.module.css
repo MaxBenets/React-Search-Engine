@@ -1,0 +1,90 @@
+.towar{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.img_area{
+    flex: 1 500px;
+    padding: 20px;
+}
+.info{
+    flex: 2 500px;
+}
+.img{
+    width: 100%;
+}
+.h2{
+    font-family: "Inter";
+}
+.price{
+    font-family: "Roboto";
+    font-size: 30px;
+    color: #343434;
+    margin-top: 3px;
+}
+.priceBlock{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.btn, .input{
+    padding: 10px;
+    margin-left: 5px;
+    outline: 0;
+    border: 1px solid #909090;
+    border-radius: 10px;
+}
+
+.input{
+    border: 0;
+    border-bottom: 1px solid #909090;
+    border-radius: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.btn{
+    background: #fff;
+    cursor: pointer;
+}
+.buy{
+    display: block;
+}
+.allNice{
+    margin-top: 30px;
+    background: #C4DFAA;
+    padding: 15px;
+    border-radius: 10px;
+}
+.h3{
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 35px;
+    text-align: center;
+}
+.niceMessage{
+    font-family: Arial;
+    font-size: 25px;
+    color: #343434;
+    text-align: center;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.toHome{
+    display: block;
+    padding: 10px;
+    font-size: 25px;
+    background: #8fe07f;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #000;
+    font-weight: 500;
+    font-family: Arial;
+    margin-top: 10px;
+    border-radius: 5px;
+}

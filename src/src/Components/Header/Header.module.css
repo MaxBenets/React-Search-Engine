@@ -1,0 +1,50 @@
+.header{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 35px;
+}
+.h1{
+    font-size: 50px;
+    color: #101010;
+    font-family: "Inter";
+    text-decoration: none;
+}
+.p{
+    color: #343434;
+    font-family: "Roboto";
+    text-decoration: none;
+}
+.h1, .search{
+    flex: 1;
+}
+.search{
+    display: flex;
+    padding: 50px;
+}
+.searchInput{
+    width: 100%;
+    font-size: 30px;
+    padding: 10px;
+    outline: 0;
+    color: rgb(92, 92, 92)
+}
+.info{
+    display: flex;
+    align-items: center;
+    flex: 10
+}
+.data{
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+@media (max-width: 500px) {
+    .h1{
+        font-size: 30px;
+    }
+    .p{
+        font-size: 15px;
+    }
+}
