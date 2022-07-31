@@ -1,6 +1,13 @@
-### Quick - React open source search engine
+## This app created using next technologies:
 
-If you want to add to this project, download it. The src folder will contain the entire project on React, which you can add.
-Do not forget to download all the modules used in the project using the command: <code>npm install</code>
+<a href = "https://github.com/facebook/create-react-app">REACT-CREATE-APP</a> <br>
+<a href = "https://github.com/reduxjs/redux">REDUX</a>, 
+<a href = "https://github.com/reduxjs/react-redux">REACT-REDUX</a>, 
+<a href = "https://github.com/reduxjs/redux-thunk">REDUX-THUNK</a>
+<br>
+<a href = "https://github.com/axios/axios">AXIOS</a>,
 
-And then start the project using the command: <code>npm start</code>
+## And used api:
+<a href = "https://www.googleapis.com/customsearch/v1?key=YOUR_KEY&cx=017576662512468239146:omuauf_lfve&q=apple">GOOGLE SEARCH API</a> (Enter your key in the middle of the link)
+
+### Thanks to everyone who created these technologies
