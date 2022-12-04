@@ -1,0 +1,127 @@
+:root {
+   --border-radius-px: 10px;
+}
+
+.search_area {
+   width: 100%;
+   min-height: 90vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.search_div {
+   flex: 1;
+   max-width: 1000px;
+}
+.item {
+   display: flex;
+   align-items: center;
+}
+.input,
+.btn {
+   padding: 20px;
+   font-size: 25px;
+   font-family: "Roboto";
+   letter-spacing: 0.5px;
+}
+.input {
+   flex: 1;
+   max-width: 900px;
+   border: 0;
+   outline: 0;
+   background: rgb(223, 223, 223);
+   border-top-left-radius: var(--border-radius-px);
+   border-bottom-left-radius: var(--border-radius-px);
+}
+.btn {
+   border: 0;
+   font-family: Arial;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   max-width: 100px;
+   height: 100%;
+   background: #343434;
+   color: #fff;
+   text-align: center;
+   text-decoration: none;
+   border-top-right-radius: var(--border-radius-px);
+   border-bottom-right-radius: var(--border-radius-px);
+}
+.btn:hover {
+   background: #303030;
+}
+.h1 {
+   text-align: center;
+   font-size: 55px;
+   margin-bottom: 10px;
+   font-family: Arial;
+   font-weight: 500;
+   letter-spacing: 5px;
+}
+
+.plusContent {
+   margin-top: 20px;
+   display: flex;
+   flex-wrap: wrap;
+}
+.timeContainer,
+.quoteContainer {
+   flex: 1 200px;
+   margin-top: 20px;
+}
+.searchIcon {
+   width: 42px;
+}
+.websites{
+    display: flex;
+    flex-wrap: wrap;
+}
+.website{
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.website img{
+    width: 100%;
+    max-width: 55px;
+    background: #eee;
+    padding: 5px;
+    border-radius: 10px;
+}
+.website img:hover{
+    background: #dfdfdf;
+}
+.website:nth-child(1){
+    margin-left: 0;
+}
+.inputBig{
+   resize: vertical;
+   min-height: 68px;
+   max-height: 500px;
+   height: 68px;
+}
+.inputBig::-webkit-scrollbar {
+   width: 5px;
+}
+.inputBig::-webkit-scrollbar-track {
+   background: #f1f1f1;
+}
+.inputBig::-webkit-scrollbar-thumb {
+   background: #272727;
+   cursor: pointer;
+}
+
+@media (max-width: 500px) {
+   .timeContainer,
+   .quoteContainer {
+      text-align: center;
+   }
+   .timeContainer {
+      margin-top: 70px;
+   }
+   .plusContent {
+      display: block;
+   }
+}

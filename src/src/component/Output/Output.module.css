@@ -1,0 +1,92 @@
+.output {
+    padding: 30px;
+    padding-top: 0;
+}
+.item{
+    margin-top: 30px;
+}
+.link {
+    font-family: "Open sans";
+    font-size: 25px;
+}
+
+.about {
+    font-family: "Roboto";
+    margin-top: 10px;
+    color: #404040;
+    font-size: 18px;
+    max-width: 1300px;
+}
+
+.link_item {
+    text-decoration: none;
+    color: rgb(26, 18, 164);
+}
+
+.dlink,
+.searchTime {
+    font-size: 13px;
+    font-family: Arial;
+    margin-left: 0px;
+    margin-top: 2px;
+}
+.dlink{
+    color: #000;
+    text-decoration: none;
+}
+
+.searchTime {
+    margin-top: 20px;
+}
+
+.error {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message {
+    font-size: 60px;
+    color: #383A48;
+    font-family: "Source Sans Pro";
+}
+
+.find_aggain {
+    display: block;
+    background: #202020;
+    color: #fff;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: Arial;
+    margin-top: 10px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.loaderArea{
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader{
+    max-width: 250px;
+}
+
+.all {
+    display: flex;
+}
+
+.item {
+    flex: 4;
+}
