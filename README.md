@@ -8,6 +8,6 @@
 <a href = "https://github.com/axios/axios">AXIOS</a>,
 
 ## And used api:
-<a href = "https://rapidapi.com/ytjar/api/youtube-mp36/">youtube-mp36</a>
+<a href = "https://developers.google.com/apis-explorer/">GOOGLE SEARCH API</a>
 
 ### Thanks to everyone who created these technologies
